@@ -26,5 +26,6 @@ ENJOY!
 
 Code still isn't optimized.
 For the geeks:
-You can directly rewrite the python code to js so you don't have the copy the JSOn or you could use Flask.
+
+You can directly rewrite the python code to js so you don't have the copy the JSON or you could use Flask.
 Either way it would be a huge upgrade!
