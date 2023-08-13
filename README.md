@@ -12,7 +12,7 @@ Then:
 
 5. Input this CHANNELID into SECRETS/Secret.json
 
-6. run python get.py
+6. run python get.py, then run upload.py
 
 If you want to visualize the content:
 
