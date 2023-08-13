@@ -12,20 +12,8 @@ Then:
 
 5. Input this CHANNELID into SECRETS/Secret.json
 
-6. run python get.py, then run upload.py
+6. run python get.py
 
-If you want to visualize the content:
+7. replace #path in upload.py
 
-THEN:
-
-1. Copy the JSON to the JSON variable in website.js
-
-2. Open main.html
-
-ENJOY!
-
-Code still isn't optimized.
-For the geeks:
-
-You can directly rewrite the python code to js so you don't have the copy the JSON or you could use Flask.
-Either way it would be a huge upgrade!
+8. run upload.py
