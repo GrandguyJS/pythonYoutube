@@ -6,7 +6,7 @@ from pytube import YouTube
 f = open('videos.json')
 
 path = #path
-outputpath = #outputpath
+
 data = json.load(f)
 f.close()
 
@@ -48,7 +48,7 @@ else:
 
         
         video_stream = yt.streams.get_highest_resolution()
-        video_stream.download(output_path=outputpath)
+        video_stream.download(output_path=path+name)
        
 
 
@@ -58,7 +58,7 @@ else:
         print(f'Video {number} downloaded successfully...? Video number {number}! With name {data["title"][i]}')
         number += 1
 
-    print("Done!!")
+   
 
 
 
@@ -69,5 +69,5 @@ else:
     f.close()
 with open(path + name + f"/{name}FULL.json", 'w') as b:
     json.dump(fullData, b, indent=2)
-    print("really DONE!!!")
+    print("Done")
 b.close()
