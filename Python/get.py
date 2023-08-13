@@ -17,7 +17,7 @@ data = data["items"]
 if num == "x":
     end = len(data)
 else:
-    end = num
+    end = int(num)
 
 jsonFile = {
     "id": [],
