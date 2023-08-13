@@ -1,6 +1,6 @@
 import requests, json
 
-data = json.load(open('../Secrets/Secret.json', 'r'))
+data = json.load(open('./Secrets/Secret.json', 'r'))
 
 API_KEY = data["API_KEY"]
 CHANNEL_ID = data["CHANNEL_ID"]
@@ -44,8 +44,7 @@ with open('fullJSON.json', 'w') as a:
     print("New jsonFULL file is created from jsonFile")
     a.close()
 
-import os
-os.system(f'python upload.py')
+
 
 
 
